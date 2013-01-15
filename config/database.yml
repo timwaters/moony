@@ -19,8 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: jdbcmysql
-  database: db/development.sqlite3_production
+  adapter: postgresql
+  encoding: unicode
+  database: hot_josm_production
   pool: 5
-  timeout: 5000
+  username: hot_josm
+  password: hot_josm
 
