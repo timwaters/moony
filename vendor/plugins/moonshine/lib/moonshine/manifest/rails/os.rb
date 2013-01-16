@@ -251,6 +251,10 @@ private
     Facter.lsbdistid == 'Ubuntu' && Facter.lsbdistrelease.to_f == 8.10
   end
 
+  def ubuntu_precise?
+    Facter.lsbdistid == 'Ubuntu' && Facter.lsbdistrelease.to_f == 12.04
+  end
+
   def distro_unattended_security_origin
     case Facter.lsbdistrelease.to_f
     when 8.10 then 'Ubuntu intrepid-security'

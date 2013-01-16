@@ -54,6 +54,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.19)
     multi_json (1.5.0)
+    pg (0.11.0)
     polyglot (0.3.3)
     rack (1.4.4)
     rack-cache (1.2)
@@ -111,6 +112,7 @@ DEPENDENCIES
   execjs
   jquery-rails
   json
+  pg
   rails (= 3.2.11)
   sass-rails (~> 3.2.3)
   sqlite3
