@@ -5,9 +5,7 @@
 module Moonshine::Manifest::Rails::Postgresql
 
   def postgresql_version
-    #ubuntu_lucid? ? '8.4' : '8.3'
-    #ubuntu_precise? ? '9.1' : '8.4'
-    '9.1'
+    ubuntu_lucid? ? '8.4' : '8.3'
   end
 
   # Installs <tt>postgresql</tt> from apt and enables the <tt>postgresql</tt>
